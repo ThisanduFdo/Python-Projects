@@ -1,0 +1,11 @@
+age=input("What is your current age ? ")
+dy=90
+
+remaning =dy-int(age)
+Remaining_Years =remaning
+Remaining_Months = remaning*12
+Remaining_Weeks = remaning*52
+Remaining_Days = remaning*365
+
+message=(f"You have {Remaining_Years} Years , {Remaining_Months} Months, {Remaining_Weeks} , Weeks and {Remaining_Days} Days Remaning")
+print(message)
